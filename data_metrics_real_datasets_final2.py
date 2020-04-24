@@ -421,7 +421,7 @@ for j in range(0,14*len(real_datasets),14):
 
 #     try:
 
-    if(counter in [9]):
+    if(counter in [7,9,10,21]):
         print("deleted ",counter)
         
     else:
