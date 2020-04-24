@@ -449,7 +449,7 @@ for j in range(0,14*len(real_datasets),14):
             matrix[i][4] = round(N_inter,3)
             matrix[i][5] = round(np.mean(distance),3)
             matrix[i][6] = round(voverlap,3)
-            matrix[i][7] = round(threshold[c],3)
+            matrix[i][7] = round(threshold[c],5)
     #         print(matrix[i])
             c = c+1
             j = j+1
